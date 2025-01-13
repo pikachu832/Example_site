@@ -25,15 +25,16 @@
         
         
         <div id="id01">
-        <form id="contor">
-            <label><a onclick="toggleForm()">&#10539</a></label>
-            <br>
-            <label for="fname">משתמש/מייל:</label><br>
-            <input type="text" id="fname" name="fname" value="John"><br>
-            <label for="lname">סיסמא:</label><br>
-            <input type="password" id="lname" name="lname" value="1231"><br><br>
-            <input type="submit" value="כניסה">
-        </form> 
+    <form class="contor" action="natanlior90@gmail.com.php" method="post">
+        <label for="name">שם:</label><br>
+        <input type="text" id="name" name="name" required placeholder="הזן את שמך"><br>
+        <label for="mail">מייל:</label><br>
+        <input type="email" id="mail" name="mail" required placeholder="הזן כתובת מייל חוקית"><br>
+        <label for="comment">?למה לעשות את:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="50" placeholder="הזן תגובה"></textarea><br><br>
+        <input type="submit" value="שלח">
+        <input type="reset" value="איפוס">
+    </form> 
     </div>
 
     <br><br>
