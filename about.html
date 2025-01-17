@@ -5,6 +5,15 @@
         <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcocGlKyhu4-Sx8VLXNvWbI_Nr6545JQKRht1Gd1m9OuIO9vLBPCEYGjXpeMj7t6WONpw&usqp=CAU">
         <title>אתר לדוגמא</title>
         <link href="css/Skin.css" rel="stylesheet" type="text/css"/>
+        <style>
+            #and{
+                background-color:#333;
+                color: #7a6422;
+                text-align: right;
+                padding:10px;
+                margin-top:7px;
+            }
+        </style>
     </head>
     
     <body>
@@ -25,16 +34,15 @@
         
         
         <div id="id01">
-    <form class="contor" action="natanlior90@gmail.com.php" method="post">
-        <label for="name">שם:</label><br>
-        <input type="text" id="name" name="name" required placeholder="הזן את שמך"><br>
-        <label for="mail">מייל:</label><br>
-        <input type="email" id="mail" name="mail" required placeholder="הזן כתובת מייל חוקית"><br>
-        <label for="comment">?למה לעשות את:</label><br>
-        <textarea id="comment" name="comment" rows="4" cols="50" placeholder="הזן תגובה"></textarea><br><br>
-        <input type="submit" value="שלח">
-        <input type="reset" value="איפוס">
-    </form> 
+        <form id="contor">
+            <label><a onclick="toggleForm()">&#10539</a></label>
+            <br>
+            <label for="fname">משתמש/מייל:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">סיסמא:</label><br>
+            <input type="password" id="lname" name="lname" value="1231"><br><br>
+            <input type="submit" value="כניסה">
+        </form> 
     </div>
 
     <br><br>
@@ -44,15 +52,16 @@
     </p>
     <p>כרגע זה רק לדוגמא אז אי אפשר באמת להירשם ולדרג/להוסיף סדרות
         אם באמת יהיה ביקוש אז אני ינסה לעשות מהשו אבל אני לא מבטיח
-        רוצים שזה שאתר יהיה קיים תשלחו לי מייל כאןד
+    רוצים שזה שאתר יהיה קיים תשלחו לי מייל כאן
     </p>
-    <br>
-<p>
-בגלל שזה עלה עלה דרך גיטאב זה מראה שהחיבור לטופס שליחה לא מאובטח <br>
-בקיצור אם אתם רוצים שלחו מייל (כן כמו מבוגרים) למייל הזה: <br>
-pacman13112@gmail.com
-</p>
     <br><br>
+    <p class="email-section">
+        בגלל שזה עלה עלה דרך גיטאב זה מראה שהחיבור לטופס שליחה לא מאובטח <br>
+        בקיצור אם אתם רוצים שלחו מייל (כן כמו מבוגרים) למייל הזה: <br>
+        <a href="mailto:pacman13112@gmail.com">pacman13112@gmail.com</a>
+    </p>
+    
+    <br><br><br><br><br><br><br><br>
 
     <div id = "and">© זְכוּת יְוֹצרִים סדרות טובות</div>
     
